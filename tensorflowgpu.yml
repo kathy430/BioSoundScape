@@ -1,0 +1,31 @@
+name: tensorflowgpu
+channels:
+  - conda-forge
+dependencies:
+    - cudatoolkit=11.2
+    - cudnn=8.1.0
+    - python=3.10
+    - pip
+    - jupyter
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - seaborn
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - ipykernel
+    - graphviz
+    - pip:
+        - tensorflow<2.11.0
+        - bayesian-optimization
+        - gym
+        - kaggle
+        - pydot
